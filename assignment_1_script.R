@@ -44,8 +44,8 @@ te_labels <- c(DNA_transposon  = "DNA transposons",
 
 ##Load the data -----
 # MINOR: both files now use read_csv() so they load the same way
-trichinella_spiralis <- read_csv("GCA_001447595.1.csv")
-trichinella_zimbabwensis <- read_csv("GCA_001447665.1.csv")
+trichinella_spiralis <- read_csv("../data/GCA_001447595.1.csv")
+trichinella_zimbabwensis <- read_csv("../data/GCA_001447665.1.csv")
 
 ##WRANGLE -----
 ###make a vector containing strings of non TE names
